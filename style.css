@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
@@ -11,7 +11,7 @@ body{
     height: 100vh;
     padding-right: 230px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: end;
 }
 
@@ -41,6 +41,16 @@ body{
     font-weight: 600;
 }
 
+.btn-two {
+    background-color: #fff;
+    color: #F15B22;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* main css */
 
 h2.title {
@@ -61,9 +71,9 @@ main {
 
 .about {
     display: flex;
-     align-items: center;
-     margin-top: 140px;
-     gap: 50px;
+    align-items: center;
+    margin-top: 140px;
+    gap: 50px;
 }
 
 .about ul {
@@ -81,7 +91,7 @@ main {
     text-align: center;
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
@@ -98,4 +108,56 @@ main {
 .plan p {
     font-size: 25px;
     color: #737272;
+}
+
+.cta {
+    background-image: url('images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    padding: 60px;
+    color: #fff;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    margin-bottom: 130px;
+}
+
+.cta h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #151414;
+    padding: 130px 230px;
+    color: #fff;
+}
+
+footer .colume-one {
+    max-width: 500px;
+}
+
+footer .colume-two {
+    min-width: 350px;
+}
+
+footer h2.title {
+    color: #fff;
+}
+
+footer input[type="email"] {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+footer .social {
+    margin-top: 30px;
+}
+
+footer .social img{
+    margin-right: 12px;
 }
